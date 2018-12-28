@@ -88,6 +88,15 @@ final class Config
 
     const CCB_REFUND = 'ccb_refund';// 建行退款
 
+    //========================= 通联支付相关接口 =======================//
+    // 支付常量
+    const Allin_CHANNEL_Gateway = 'allin_gateway'; // 网关支付通道
+
+    const Allin_CHARGE = 'allin_charge'; // 通联支付 下单
+
+    const Allin_REFUND = 'allin_refund'; // 通联支付 退款
+
+
 
     //========================= 金额问题设置 =======================//
     const PAY_MIN_FEE = '0.01';// 支付的最小金额
